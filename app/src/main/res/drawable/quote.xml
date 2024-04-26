@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Define the path for the left curved open quote -->
+    <path
+        android:fillColor="#000000"
+    android:pathData="M8,5
+    C8,3.5,9.5,2,11,2
+    C12.5,2,14,3.5,14,5
+    L14,15
+    C14,16.5,12.5,18,11,18
+    C9.5,18,8,16.5,8,15
+    L8,5"/>
+
+    <!-- Define the path for the right curved open quote -->
+    <path
+        android:fillColor="#000000"
+    android:pathData="M16,5
+    C16,3.5,17.5,2,19,2
+    C20.5,2,22,3.5,22,5
+    L22,15
+    C22,16.5,20.5,18,19,18
+    C17.5,18,16,16.5,16,15
+    L16,5"/>
+
+</vector>
