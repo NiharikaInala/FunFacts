@@ -172,7 +172,7 @@ fun AnimalCard(
 fun ButtonComponent(goToDetailsScreen: () -> Unit) {
     Button(modifier = Modifier.fillMaxWidth(),
         onClick = {
-            goToDetailsScreen
+            goToDetailsScreen()
         }) {
         TextComponent(
             textValue = "Go to Details Screen",

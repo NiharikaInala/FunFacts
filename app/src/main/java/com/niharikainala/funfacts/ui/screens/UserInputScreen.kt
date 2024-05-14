@@ -1,5 +1,6 @@
 package com.niharikainala.funfacts.ui.screens
 
+import android.util.Log
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -77,6 +78,7 @@ fun UserInputScreen(userInputViewModel: UserInputViewModel, showWelcomeScreen: (
             if (userInputViewModel.isValidState()) {
                 ButtonComponent(goToDetailsScreen = {
                     val userInput = Pair(userInputViewModel.uiState.value.nameEntered,userInputViewModel.uiState.value.animalSelected)
+                    Log.d("userInput",userInput.toString())
                     showWelcomeScreen(userInput)
                 })
 

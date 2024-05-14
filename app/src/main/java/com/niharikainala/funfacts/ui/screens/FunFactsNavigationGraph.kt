@@ -26,8 +26,8 @@ fun FunFactsNavigationGraph(userInputViewModel: UserInputViewModel = viewModel()
                 navArgument(name = Routes.ANIMAL_SELECTED){type = NavType.StringType}
                 )
         ){
-           val username = it?.arguments?.getString(Routes.USER_NAME)
-            val animalSelected = it?.arguments?.getString(Routes.ANIMAL_SELECTED)
+           val username = it.arguments?.getString(Routes.USER_NAME)
+            val animalSelected = it.arguments?.getString(Routes.ANIMAL_SELECTED)
             WelcomeScreen(username,animalSelected)
         }
     }
